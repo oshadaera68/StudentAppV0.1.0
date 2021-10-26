@@ -39,4 +39,7 @@ public class DashboardFormController {
             System.exit(0);
         }
     }
+
+    public void aboutUsOnAction(MouseEvent mouseEvent) {
+    }
 }
