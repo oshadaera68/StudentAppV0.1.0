@@ -19,6 +19,8 @@ public class AppInitializer extends Application {
         Parent load = FXMLLoader.load(resource);
         Scene scene = new Scene(load);
         primaryStage.setScene(scene);
+        primaryStage.setFullScreen(false);
+        primaryStage.setResizable(false);
         primaryStage.setTitle("Student App v0.1.0 | MINDARTLK Creations");
         primaryStage.show();
 
